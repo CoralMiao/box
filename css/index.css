@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.container{
+	position: absolute;
+	width: 660px;
+	height: 660px;
+	top: 50%;
+	left: 50%;
+	margin-left: -330px;
+	margin-top: -330px;
+}
+.xiezi{
+	width:150px;
+	height: 150px;
+	background: #F08E81;
+	overflow: auto;
+	white-space: pre;
+	-moz-tab-size:4;
+	-o-tab-size:4;
+	tab-size:4;
+}
+.xiehe{
+	border:5px solid #A0DDB4;
+	padding: 10px;
+	width: 150px;
+	height: 150px;
+	background: #FED563;
+	border-radius: 20px;
+	margin:30px;
+}
+.xiezi1{
+	width:150px;
+	height: 150px;
+	background: #80BD46;
+	margin:0 auto;
+	overflow: auto;
+	word-break:keep-all;
+}
+.xiehe1{
+	border:5px solid #F0A391;
+	padding: 10px;
+	width: 180px;
+	height: 180px;
+	/*width: 120px;
+	height: 120px;*/
+	background: #DC3731;
+	margin-top: 30px;
+	border-radius: 20px;
+	margin:30px auto;
+	box-sizing:border-box;
+}
+.location{
+	float: right;
+	position: relative;
+	bottom: -180px;
+}
+.xiezi2{
+	width:150px;
+	height: 150px;
+	background: #F08E81;
+	overflow: auto;
+	/*white-space: pre;*/
+	word-wrap:break-word;
+}
+.button{
+	position: relative;
+	width: 200px;
+	height: 36px;
+	margin:0 auto;
+	margin-top: 200px;
+}
+a{
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+a:hover{
+	color: #f00056;
+}

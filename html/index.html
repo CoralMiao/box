@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>标准盒子与怪异盒子</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="xiehe">
+			<div class="xiezi">
+					标准盒子：这是一个比较聪明的盒子，当你设置好内容之后，
+				存放内容的盒子会自动根据你所设置的内容和
+				padding以及border的值调整到合适的大小来达到预期效果。
+				此时该盒子的宽高就不用人工来计算了，
+				盒子的大小定为内容的大小即可如果算上border和padding的值反而会渲染出错。（此方法更适用于PC）
+			</div>
+		</div>
+		<div class="xiehe location">
+			<div class="xiezi2">
+				标准盒子：这是一个比较聪明的盒子，当你设置好内容之后，存放内容的盒子会自动根据你所设置的内容和padding以及border的值调整到合适的大小来达到预期效果。此时该盒子的宽高就不用人工来计算了，盒子的大小定为内容的大小即可如果算上border和padding的值反而会渲染出错。（此方法更适用于PC）
+			</div>
+		</div>
+		<div class="xiehe1">
+			<div class="xiezi1">
+				怪异盒子：这个盒子是指先放好内容，设定好padding之后再来计算用来存放内容的盒子的大小，即盒子的大小是由内容+padding+border组成的，所以该盒子的大小必须大于等于内容的大小（在padding和border同时为0时取等，此方法用于移动端居多）
+			</div>
+		</div>
+		<div class="button">
+			<a href="box-center.html">未完&nbsp;NEXT>>...</a>
+		</div>
+	</div>
+</body>
+</html>
